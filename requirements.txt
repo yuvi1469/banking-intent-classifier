@@ -1,0 +1,12 @@
+# Exact versions will be pinned once tested in Colab.
+transformers
+datasets
+evaluate
+accelerate
+torch
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+gradio

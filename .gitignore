@@ -1,0 +1,46 @@
+# Course documents
+Individual Project Evaluation Criteria.docx
+Individual Projects_updated.docx
+
+# Secrets
+.env
+.env.*
+*.key
+*token*.json
+
+# Models and checkpoints (stored on Google Drive)
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Data (downloaded by the notebook)
+data/
+
+# Video and large demo recordings
+*.mp4
+*.mov
+*.mkv
+
+# Experiment tracking
+wandb/
+runs/
+mlruns/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
