@@ -11,7 +11,7 @@ A running order for the 10 to 15 minute presentation, for both the live session 
 | 2:30 to 4:00 | 3. The models | Models slide |
 | 4:00 to 6:00 | 4. Results | Results slide, then the high-risk slide |
 | 6:00 to 7:30 | 5. Where the models go wrong | Error analysis slide |
-| 7:30 to 11:00 | 6. Live demo | The demo slide, the live demo slide, the Gradio app, then the demo results slide |
+| 7:30 to 11:00 | 6. Live demo | The demo slide, the live demo slide, BankBot Assistant, then the demo results slide |
 | 11:00 to 13:00 | 7. Beyond accuracy | Beyond accuracy slide |
 | 13:00 to 14:00 | 8. Limitations and next steps | Limitations slide, then the summary slide |
 | 14:00 onwards | Questions | Summary slide |
@@ -60,12 +60,12 @@ A running order for the 10 to 15 minute presentation, for both the live session 
 
 ### 6. Live demo (3.5 minutes)
 
-Open the public link from section 12.4. Type each message, or click it in the examples list. For each one, point to the reply and the confidence chart.
+Open BankBot Assistant from the public link in section 12.4. Type each message into the chat, or click it under "Try a message". For each one, point to BankBot's reply and to the "What BankBot understood" panel. Click **New conversation** between examples so the chat stays easy to follow.
 
 | # | Message | What happens | What to say |
 |---|---|---|---|
 | 1 | My card hasn't arrived yet | Answers *card arrival*, 99.9% | The easy case: confident and right. |
-| 2 | I need to verify my identity | Asks: *why verify identity* or *verify my identity*? | Two intents are nearly identical, so it asks instead of guessing. |
+| 2 | I need to verify my identity, then reply **2** | Asks: 1. *why verify identity* or 2. *verify my identity*? Then answers *verify my identity* | Two intents are nearly identical, so it asks instead of guessing, and the conversation carries on from the customer's choice. |
 | 3 | I think someone has been using my card | Answers *compromised card*, with the safety warning | High-risk messages always get the warning and go to a person. |
 | 4 | I lost my wallet with my card in it | Safety warning, then asks to rephrase | It isn't confident enough to answer, but the warning still shows. Admit this is awkward for a worried customer. |
 | 5 | my crad hasnt arived yet | Asks to rephrase, 34% confidence | Typos are the main weakness, but it asks instead of answering wrongly. |
