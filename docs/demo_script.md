@@ -85,7 +85,7 @@ Then give the measured numbers from section 12.2, so the examples aren't the onl
 - **Clarifying questions:** asking on about 10% of messages cuts DistilBERT's wrong answers from 219 to 151. RoBERTa gains more, down to 126.
 - **Off-topic detection:** about 95% of off-topic messages flagged, with an AUROC of 0.98.
 - **Typos:** two typos per message drop DistilBERT to 0.71 macro F1, level with the baseline. RoBERTa holds up better, at 0.78.
-- **Speed:** DistilBERT takes about 66 ms per message on a CPU, within the 200 ms target.
+- **Speed:** DistilBERT takes about 57 ms per message on a CPU, within the 200 ms target.
 - **Limited data:** with 10 examples per intent the baseline wins. With 30, DistilBERT wins.
 
 ### 8. Limitations and next steps (1 minute)
