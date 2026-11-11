@@ -27,7 +27,7 @@ A running order for the 10 to 15 minute presentation, for both the live session 
 
 ### 2. The data (1.5 minutes)
 
-- BANKING77: 13,083 real customer messages in English, 77 intents, licensed CC BY 4.0.
+- BANKING77: 13,083 online banking queries in English, 77 intents, licensed CC BY 4.0.
 - Messages are short, about 10 words on average. The test set has exactly 40 messages per intent, while the training set is less even.
 - I fixed two label names, removed 12 near-duplicates within the training data and 11 near-copies of test messages, so the test score is not inflated.
 - Split: 8,982 training, 998 validation (stratified), and the official 3,080 test messages, used only once at the end.
