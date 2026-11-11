@@ -32,7 +32,7 @@ The project also tests off-topic detection, typos, speed and limited training da
 | `app/bankbot.py` | BankBot Assistant, the Gradio chat app |
 | `docs/report.md` | Project report |
 | `docs/model_card.md` | Model card |
-| `docs/demo_script.md` | Presentation plan and video checklist |
+| `docs/demo_script.md` | Presentation plan |
 | `results/figures/` | Key charts |
 | `requirements.txt` | Pinned package versions |
 

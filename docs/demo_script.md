@@ -1,6 +1,6 @@
 # Demo script
 
-A running order for the 10 to 15 minute presentation, for both the live session and the recorded video walkthrough. Times are a guide: the full version runs about 14 minutes, and the cuts at the end bring it down to 10.
+A running order for the 10 to 15 minute presentation. Times are a guide: the full version runs about 14 minutes, and the cuts at the end bring it down to 10.
 
 ## Running order
 
@@ -126,14 +126,4 @@ Then give the measured numbers from section 12.2, so the examples aren't the onl
 If the link or Colab fails during the live demo:
 
 1. Show the table of examples in section 12.3 of the saved notebook on GitHub. It has every response and confidence from a real run.
-2. Play the demo section of the recorded video.
-3. Carry on with the talk. The demo is about 3 minutes, and the measured results in section 12.2 still make the point.
-
-## Recording the video walkthrough
-
-- [ ] Record at 1080p with a screen recorder such as OBS Studio, or the Xbox Game Bar (Windows + G).
-- [ ] Use a headset or external microphone in a quiet room, and do a 10-second test first.
-- [ ] Turn off notifications, and hide bookmarks and personal tabs.
-- [ ] Follow the running order above, and keep to 15 minutes or less.
-- [ ] In the demo, type slowly and pause on each reply for 2 to 3 seconds.
-- [ ] Watch the recording through once before submitting, checking that the sound is clear and the text is readable.
+2. Carry on with the talk. The demo is about 3 minutes, and the measured results in section 12.2 still make the point.
